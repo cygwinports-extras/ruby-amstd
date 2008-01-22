@@ -1,0 +1,9 @@
+ORIG_PN="amstd"
+
+inherit ruby
+
+DESCRIPTION="Ruby utility collection by Minero Aoki"
+HOMEPAGE="http://i.loveruby.net/en/projects/amstd/"
+SRC_URI="http://i.loveruby.net/archive/${ORIG_PN}/${ORIG_PN}-${PV}.tar.gz"
+
+DOCS="LGPL README.en README.ja"

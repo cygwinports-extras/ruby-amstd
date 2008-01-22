@@ -1,0 +1,57 @@
+ruby-amstd
+-------------------------------------------
+Ruby utility collection by Minero Aoki
+
+Runtime requirements:
+  ruby-1.8.6-1
+
+Canonical homepage:
+  http://i.loveruby.net/en/projects/amstd/
+
+Canonical download:
+  http://i.loveruby.net/archive/amstd/
+
+-------------------------------------------
+
+Build instructions:
+  unpack ruby-amstd-2.0.0-1-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./ruby-amstd-2.0.0-1.cygport all
+
+This will create:
+  /usr/src/ruby-amstd-2.0.0-1-src.tar.bz2
+  /usr/src/ruby-amstd-2.0.0-1.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/lib/ruby/site_ruby/1.8/amstd/aliasing.rb
+  /usr/lib/ruby/site_ruby/1.8/amstd/benchmark.rb
+  /usr/lib/ruby/site_ruby/1.8/amstd/bug.rb
+  /usr/lib/ruby/site_ruby/1.8/amstd/const.rb
+  /usr/lib/ruby/site_ruby/1.8/amstd/d.rb
+  /usr/lib/ruby/site_ruby/1.8/amstd/daemon.rb
+  /usr/lib/ruby/site_ruby/1.8/amstd/must.rb
+  /usr/lib/ruby/site_ruby/1.8/amstd/protect.rb
+  /usr/lib/ruby/site_ruby/1.8/amstd/rbparams.rb
+  /usr/lib/ruby/site_ruby/1.8/amstd/rubyloader.rb
+  /usr/lib/ruby/site_ruby/1.8/amstd/timer.rb
+  /usr/lib/ruby/site_ruby/1.8/amstd/version.rb
+  /usr/share/doc/Cygwin/ruby-amstd-2.0.0.README
+  /usr/share/doc/ruby-amstd-2.0.0/LGPL
+  /usr/share/doc/ruby-amstd-2.0.0/README.en
+  /usr/share/doc/ruby-amstd-2.0.0/README.jp
+
+------------------
+
+Port Notes:
+
+----- version 2.0.0-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
