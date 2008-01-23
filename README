@@ -14,15 +14,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack ruby-amstd-2.0.0-1-src.tar.bz2
+  unpack ruby-amstd-2.0.0-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./ruby-amstd-2.0.0-1.cygport all
+  cygport ./ruby-amstd-2.0.0-X.cygport all
 
 This will create:
-  /usr/src/ruby-amstd-2.0.0-1-src.tar.bz2
-  /usr/src/ruby-amstd-2.0.0-1.tar.bz2
+  /usr/src/ruby-amstd-2.0.0-X-src.tar.bz2
+  /usr/src/ruby-amstd-2.0.0-X.tar.bz2
 
 -------------------------------------------
 
@@ -48,6 +48,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 2.0.0-2 -----
+Rebuilt with cygport.
 
 ----- version 2.0.0-1 -----
 Initial release for Cygwin.
